@@ -195,7 +195,7 @@ Register callback with Safaricom.
 
 # How Payments Work
 
-1. Customer selects Pesa360
+1. Customer selects WooCommerce_MPESA
 2. Enters M-Pesa phone number
 3. Clicks Place Order
 4. STK Push sent to phone
