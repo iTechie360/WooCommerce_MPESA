@@ -97,7 +97,7 @@ Complete WooCommerce setup wizard
 
 ## Step 4
 
-Install and activate Pesa360
+Install and activate WooCommerce_MPESA
 
 ---
 
@@ -119,14 +119,14 @@ Login to cPanel or File Manager
 Delete:
 
 ```bash
-/wp-content/plugins/pesa360/
+/wp-content/plugins/WooCommerce_MPESA/
 ```
 
 Then:
 
 1. Install WooCommerce
 2. Activate WooCommerce
-3. Reinstall Pesa360
+3. Reinstall WooCommerce_MPESA
 
 ---
 
