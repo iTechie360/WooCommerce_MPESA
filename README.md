@@ -134,7 +134,7 @@ Then:
 
 Go to:
 
-WooCommerce → Settings → Payments → Pesa360
+WooCommerce → Settings → Payments → WooCommerce_MPESA
 
 Enable:
 
