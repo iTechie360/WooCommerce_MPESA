@@ -3,7 +3,7 @@
  * Plugin Name: WooCommerce M-Pesa Gateway
  * Description: A custom WooCommerce payment gateway plugin written in PHP for integrating Safaricom M-Pesa STK Push payments into a WordPress/WooCommerce store.
  * Version: 1.0
- * Author: Jesse Jim (iTechie 360)
+ * Author: Jesse Jim @ iTechie 360
  * Author URI: https://www.itechie360.com | https://www.github.com/IAmJesseJim | https://iamjessejim.vercel.app
  */
 
