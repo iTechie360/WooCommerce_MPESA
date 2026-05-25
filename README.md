@@ -55,7 +55,7 @@ https://developer.safaricom.co.ke
 1. Compress plugin folder:
 
 ```bash
-WooCommerce_MPESA.zip
+woocommerce-mpesa-stk-push-payment-gateway.zip
 ```
 
 2. Login to WordPress Admin
@@ -75,7 +75,7 @@ Plugins → Add New → Upload Plugin
 Upload plugin folder to:
 
 ```bash
-/wp-content/plugins/WooCommerce_MPESA/
+/wp-content/plugins/woocommerce-mpesa-stk-push-payment-gateway/
 ```
 
 Then activate from:
@@ -102,7 +102,7 @@ Complete WooCommerce setup wizard
 
 ## Step 4
 
-Install and activate WooCommerce_MPESA
+Install and activate woocommerce-mpesa-stk-push-payment-gateway
 
 ---
 
@@ -124,14 +124,14 @@ Login to cPanel or File Manager
 Delete:
 
 ```bash
-/wp-content/plugins/WooCommerce_MPESA/
+/wp-content/plugins/woocommerce-mpesa-stk-push-payment-gateway/
 ```
 
 Then:
 
 1. Install WooCommerce
 2. Activate WooCommerce
-3. Reinstall WooCommerce_MPESA
+3. Reinstall woocommerce-mpesa-stk-push-payment-gateway
 
 ---
 
@@ -139,7 +139,7 @@ Then:
 
 Go to:
 
-WooCommerce → Settings → Payments → WooCommerce_MPESA
+WooCommerce → Settings → Payments → woocommerce-mpesa-stk-push-payment-gateway
 
 Enable:
 
@@ -200,7 +200,7 @@ Register callback with Safaricom.
 
 # How Payments Work
 
-1. Customer selects WooCommerce_MPESA
+1. Customer selects woocommerce-mpesa-stk-push-payment-gateway
 2. Enters M-Pesa phone number
 3. Clicks Place Order
 4. STK Push sent to phone
@@ -213,12 +213,13 @@ Register callback with Safaricom.
 # File Structure
 
 ```bash
-WooCommerce_MPESA/
+woocommerce-mpesa-stk-push-payment-gateway/
 │
 ├── woocommerce_mpesa.php
 ├── README.md
 └── assets/
     └── mpesa-logo.png
+    └── og-image.png
 ```
 
 ---
