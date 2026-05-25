@@ -12,15 +12,15 @@ if (!defined('ABSPATH')) {
 }
 
 // 1. Register the custom gateway with WooCommerce
-add_filter('woocommerce_payment_gateways', 'add_my_mpesa_gateway');
-function add_my_mpesa_gateway($gateways) {
+add_filter('woocommerce_payment_gateways', 'add_woocommerce_mpesa_gateway');
+function add_woocommerce_mpesa_gateway($gateways) {
     $gateways[] = 'WC_Mpesa_Gateway';
     return $gateways;
 }
 
 // 2. Initialize the gateway class
-add_action('plugins_loaded', 'init_my_mpesa_gateway');
-function init_my_mpesa_gateway() {
+add_action('plugins_loaded', 'init_woocommerce_mpesa_gateway');
+function init_woocommerce_mpesa_gateway() {
 
     class WC_Mpesa_Gateway extends WC_Payment_Gateway {
 
