@@ -8,6 +8,7 @@ Software Engineer - GitHub [Jesse Jim] (https://github.com/IAmJesseJim)
 
 Allows customers to make secure payments via Safaricom M-Pesa directly from WooCommerce checkout using STK Push.
 
+![WooCommerce MPESA](assets/og-image.png)
 ---
 
 # Features
