@@ -18,7 +18,7 @@ function add_woocommerce_mpesa_gateway($gateways) {
     return $gateways;
 }
 
-// 2. Initialize the gateway class
+// 2. Initialize gateway class
 add_action('plugins_loaded', 'init_woocommerce_mpesa_gateway');
 function init_woocommerce_mpesa_gateway() {
 
@@ -31,7 +31,7 @@ function init_woocommerce_mpesa_gateway() {
             $this->method_title       = __('Lipa na M-Pesa', 'my-mpesa');
             $this->method_description = __('Enable customers to pay directly via M-Pesa STK Push.', 'my-mpesa');
 
-            // Load the settings.
+            // Load settings.
             $this->init_form_fields();
             $this->init_settings();
 
