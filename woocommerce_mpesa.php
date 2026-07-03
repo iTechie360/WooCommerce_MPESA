@@ -26,8 +26,8 @@ function init_woocommerce_mpesa_gateway() {
 
         public function __construct() {
             $this->id                 = 'my_mpesa';
-            $this->icon               = apply_filters('woocommerce_mpesa_icon', plugins_url('assets/mpesa-logo.png', __FILE__)); // Optional: Add an icon
-            $this->has_fields         = true; // We need a phone number field
+            $this->icon               = apply_filters('woocommerce_mpesa_icon', plugins_url('assets/mpesa-logo.png', __FILE__));
+            $this->has_fields         = true; 
             $this->method_title       = __('Lipa na M-Pesa', 'my-mpesa');
             $this->method_description = __('Enable customers to pay directly via M-Pesa STK Push.', 'my-mpesa');
 
