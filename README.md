@@ -1,4 +1,4 @@
-# WooCommerce M-PESA Gateway By Jesse Jimmy Mafusa @ iTechie 360
+# WooCommerce M-PESA Gateway
 # Copyright (C) 2026 iTechie 360
 
 A custom **M-Pesa STK Push payment gateway plugin** for WooCommerce by iTechie 360.
