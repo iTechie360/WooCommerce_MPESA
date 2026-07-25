@@ -3,8 +3,9 @@
 
 A custom **M-Pesa STK Push payment gateway plugin** for WooCommerce by iTechie 360.
 
-Software Engineer - GitHub [Jesse Jim] (https://github.com/IAmJesseJim)
-                  - Portfolio (https://iamjessejim.vercel.app)
+Software Engineer | Jesse Jim
+- GitHub (https://github.com/IAmJesseJim)
+- Portfolio (https://iamjessejim.vercel.app)
 
 Allows customers to make secure payments via Safaricom M-Pesa directly from WooCommerce checkout using STK Push.
 
